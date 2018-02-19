@@ -1,0 +1,30 @@
+.TodoForm {
+	display: flex;
+	flex-direction: column;
+    flex-wrap: wrap;
+    width: 50%;
+	
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    background-color: #324a87;
+    box-shadow: 1px 2px;
+}
+
+input {
+	background-color: #e5d7da;
+	margin: 20px;
+	height: 20px;
+}
+
+button {
+	background-color: #087a3d;
+	margin: 20px;
+	cursor: pointer;
+}

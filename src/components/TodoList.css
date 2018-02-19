@@ -1,0 +1,44 @@
+.TodoList {
+	font-size: 20px;
+	text-align: center;
+	width: 70%;
+	
+
+}
+
+ul {
+	display: flex;
+	flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+	list-style-type: none;
+	background-color: #324a87;
+	color: white;
+	box-shadow: 1px 2px;
+	min-width: 50vw;
+	min-height: 50vh;
+	
+
+}
+
+li {
+	display: flex;
+	flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+	background-color: #872431;
+	padding: 5px;
+	box-shadow: 1px 2px;
+	min-width: 50vh;
+	margin: 20px;
+}
+
+button {
+	background-color: #c4717a;
+	margin-left: 20px;
+	cursor: pointer;
+}
